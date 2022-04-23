@@ -2,17 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c06e04e1-b2e7-44ef-a796-a1704876e55a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sofka/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sofka/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sofka/Registro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sofka/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sofka/data/questions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sofka/interfaces/IGameManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sofka/interfaces/IRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/questions2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/interfaces/IGameManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/interfaces/IGameManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preguntasJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/preguntasJava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sofka/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sofka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sofka/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sofka/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Response.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sofka/interfaces/IGameManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/interfaces/IGameManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,10 +96,19 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/sofka/data" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../../../Java/json-simple-1.1.1.jar" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\backup 12 ene 2022\Documents\sofka\curso\Java\final\preguntasJava\preguntasJava\src\com\sofka\data" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\backup 12 ene 2022\Documents\sofka\curso\Java\final\preguntasJava\preguntasJava" />
+      <recent name="D:\backup 12 ene 2022\Documents\sofka\curso\Java\final\preguntasJava\preguntasJava\src\com\sofka" />
+      <recent name="D:\backup 12 ene 2022\Documents\sofka\curso\Java\final\preguntasJava\preguntasJava\src" />
       <recent name="D:\backup 12 ene 2022\Documents\sofka\curso\Java\final\preguntasJava\preguntasJava\src\com\sofka\data" />
     </key>
   </component>
@@ -140,5 +150,41 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sofka/Main.java</url>
+          <line>36</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sofka/Main.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sofka/Main.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sofka/Game.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sofka/Game.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sofka/Game.java</url>
+          <line>38</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

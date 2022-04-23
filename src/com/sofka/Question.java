@@ -15,6 +15,8 @@ public class Question {
         this.category = category;
     }
 
-
+    public List<Response> responses(){
+        return this.responses;
+    }
 
 }

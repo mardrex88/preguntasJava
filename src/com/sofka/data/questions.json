@@ -1,0 +1,202 @@
+[   
+     {
+        "question" : "De que color es la capa roja de Superman",
+        "r1" : "Cafe",
+        "r2" : "Verde",
+        "r3" : "Azul",
+        "rv" : "Roja",
+        "category" : "Facil"
+    },
+    {
+        "question" : "De que color eran las mangas del chaleco de Simon Bolivar",
+        "r1" : "Las Mangas eran Rojas",
+        "r2" : "Las Mangas era Azules",
+        "r3" : "Las mangas eran Doradas",
+        "rv" : "Un Chaleco no tiene mangas",
+        "category" : "Facil"
+    },
+    {
+        "question" : "Cuantos lados tiene un Trangulo",
+        "r1" : "4",
+        "r2" : "8",
+        "r3" : "6",
+        "rv" : "3",
+        "category" : "Facil"
+    },
+    {
+        "question" : "De que color es la Leche",
+        "r1" : "Negro",
+        "r2" : "Gris",
+        "r3" : "Azúl",
+        "rv" : "Blanco",
+        "category" : "Facil"
+    },
+    {
+        "question" : "Cuanto es 2 x 2",
+        "r1" : "2",
+        "r2" : "6",
+        "r3" : "8",
+        "rv" : "4",
+        "category" : "Facil"
+    },
+    {
+        "question" : "cual de los siguientes es un color primario",
+        "r1" : "Blanco",
+        "r2" : "Verde",
+        "r3" : "Negro",
+        "rv" : "Azul",
+        "category" : "Medio"
+    },
+    {
+        "question" : "Que sonido hacen los perros",
+        "r1" : "hablan",
+        "r2" : "silvan",
+        "r3" : "maullan",
+        "rv" : "ladran",
+        "category" : "Medio"
+    },
+    {
+        "question" : "Cual es la capital de Antioquia",
+        "r1" : "Manizales",
+        "r2" : "Bogota",
+        "r3" : "Santuario",
+        "rv" : "Medellin",
+        "category" : "Medio"
+    },
+    {
+        "question" : "Cuanto es 5 x 8",
+        "r1" : "64",
+        "r2" : "16",
+        "r3" : "25",
+        "rv" : "40",
+        "category" : "Medio"
+    },
+    {
+        "question" : "Cual es la capital de Venezuela",
+        "r1" : "Madrid",
+        "r2" : "Envigado",
+        "r3" : "Lima",
+        "rv" : "Caracas",
+        "category" : "Medio"
+    },
+    {
+        "question" : "Cuál de los siguientes no es mamífero",
+        "r1" : "Gato",
+        "r2" : "Perro",
+        "r3" : "Vaca",
+        "rv" : "Lagartija",
+        "category" : "Dificil"
+    },
+    {
+        "question" : "Dia de la independecia de Colombia",
+        "r1" : "3 Octubre",
+        "r2" : "7 septiembre",
+        "r3" : "2 Agosto",
+        "rv" : "20 Julio",
+        "category" : "Dificil"
+    },
+    {
+        "question" : "Capital de Inglaterra",
+        "r1" : "Tokio",
+        "r2" : "Boston",
+        "r3" : "Toronto",
+        "rv" : "Londres",
+        "category" : "Dificil"
+    },
+    {
+        "question" : "Dia de la independecia de Colombia",
+        "r1" : "2 Agosto",
+        "r2" : "7 septiembre",
+        "r3" : "3 Octubre",
+        "rv" : "20 Julio",
+        "category" : "Dificil"
+    },
+    {
+        "question" : "Cuantos lados tiene un exagono",
+        "r1" : "5",
+        "r2" : "1",
+        "r3" : "3",
+        "rv" : "6",
+        "category" : "Dificil"
+    },
+    {
+        "question" : "Cuantas patas tiene un gato",
+        "r1" : "6",
+        "r2" : "3",
+        "r3" : "2",
+        "rv" : "4",
+        "category" : "Muy dificil"
+    },
+    {
+        "question" : "Cuál es la capital España",
+        "r1" : "Barcelona",
+        "r2" : "París",
+        "r3" : "Valencia",
+        "rv" : "Madrid",
+        "category" : "Muy dificil"
+    },
+    {
+        "question" : "Cuál de los siguientes no es mamífero",
+        "r1" : "Vaca",
+        "r2" : "perro",
+        "r3" : "Gato",
+        "rv" : "Lagartija",
+        "category" : "Muy dificil"
+    },
+    {
+        "question" : "Cuál de los siguientes piases no pertenece al continente europeo",
+        "r1" : "Holanda",
+        "r2" : "Francia",
+        "r3" : "Inglaterra",
+        "rv" : "Japón",
+        "category" : "Muy dificil"
+    },
+    {
+        "question" : "La raíz cuadrada de 144 es:",
+        "r1" : "14",
+        "r2" : "10",
+        "r3" : "16",
+        "rv" : "12",
+        "category" : "Muy dificil"
+    },
+    {
+        "question" : "En qué continente está ubicado el país Belice",
+        "r1" : "Europa",
+        "r2" : "Asia",
+        "r3" : "África",
+        "rv" : "América",
+        "category" : "Legendario"
+    },
+    {
+        "question" : "Cual de los siguientes pares de palabras son homófonas",
+        "r1" : "Lindo-Feo",
+        "r2" : "Feliz-Contento",
+        "r3" : "Agua - Rio",
+        "rv" : "Ahí-Hay",
+        "category" : "Legendario"
+    },
+    {
+        "question" : "En qué país están las cataratas del Niagara",
+        "r1" : "Francia",
+        "r2" : "Brasil",
+        "r3" : "Argentina",
+        "rv" : "Canadá",
+        "category" : "Legendario"
+    },
+    {
+        "question" : "un polígono regular es aquel",
+        "r1" : "que tiene todos sus lados desiguales",
+        "r2" : "que su perímetro es la suma sus lados",
+        "r3" : "que su área es la suma de sus lados",
+        "rv" : "que tiene todos sus lados iguales",
+        "category" : "Legendario"
+    },
+    {
+        "question" : "quién inventó la bombilla",
+        "r1" : "Isaac Newton",
+        "r2" : "Nicola Tesla",
+        "r3" : "Neil Amstrong",
+        "rv" : "Thomás Alba Edison",
+        "category" : "Legendario"
+    }
+]

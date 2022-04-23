@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c06e04e1-b2e7-44ef-a796-a1704876e55a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/questions2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Response.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/interfaces/IGameManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/interfaces/IGameManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/preguntasJava.iml" beforeDir="false" afterPath="$PROJECT_DIR$/preguntasJava.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sofka/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sofka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sofka/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sofka/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sofka/interfaces/IGameManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/interfaces/IGameManager.java" afterDir="false" />
-    </list>
+    <list default="true" id="c06e04e1-b2e7-44ef-a796-a1704876e55a" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -186,5 +173,8 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/preguntasJava$Main.ic" NAME="Main Coverage Results" MODIFIED="1650750625125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

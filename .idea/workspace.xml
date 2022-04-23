@@ -2,16 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c06e04e1-b2e7-44ef-a796-a1704876e55a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sofka/Game.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sofka/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sofka/Registro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sofka/Response.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sofka/data/questions.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sofka/interfaces/IGameManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sofka/interfaces/IRandom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sofka/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/sofka/interfaces/IMenu.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sofka/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sofka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,8 +18,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -140,5 +136,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/preguntasJava$Main.ic" NAME="Main Coverage Results" MODIFIED="1650746699283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
   </component>
 </project>

@@ -1,6 +1,7 @@
 package com.sofka;
 
 import com.sofka.interfaces.IGameManager;
+import com.sofka.interfaces.IMenu;
 import org.json.simple.JSONArray;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
@@ -12,7 +13,9 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Game implements IGameManager {
+import java.util.Scanner;
+
+public class Game implements IMenu, IGameManager {
 
     private String namePlayer;
     private Integer points;
@@ -55,10 +58,38 @@ public class Game implements IGameManager {
         for (int i = 0; i < dataQuestions.size(); i++) {
 
         }
-
-
         return dataQuestions;
     }
 
+    @Override
+    public void loadMenu() {
+        Scanner readOption = new Scanner(System.in);
+        boolean continueGame = true;
+        String[] questionInfo = {"question", "1 - answer", "2 - answer", "3 - answer", "4 - answerTrue"};
+
+        int answerSelected = 0;
+        while (continueGame){
+            System.out.println("\n");
+            printMenu(questionInfo);
+            answerSelected = readOption.nextInt();
+            switch (answerSelected) {
+                case 1:
+                    continueGame = false;
+                    break;
+                case 2:
+                    continueGame = false;
+                    break;
+                case 3:
+                    continueGame = false;
+                    break;
+                case 4:
+                    //continueGame
+                    break;
+                default:
+                    System.out.println("Elige una opción valida");
+                    break;
+            }
+        }
+    }
 
 }

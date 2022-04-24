@@ -1,0 +1,573 @@
+[{ 
+"category_id" : "1",
+"statement" : "De que color es la capa roja de Superman",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "Roja",
+"is_true" : "1"
+} 
+, { 
+"response" : "Verde",
+"is_true" : "0"
+} 
+, { 
+"response" : "Cafe",
+"is_true" : "0"
+} 
+, { 
+"response" : "Azul",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "1",
+"statement" : "De que color son las mangas del chaleco de Simon Bolivar",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "Un Chaleco no tiene mangas",
+"is_true" : "1"
+} 
+, { 
+"response" : "Las Mangas son Rojas",
+"is_true" : "0"
+} 
+, { 
+"response" : "Las Mangas Son Azules",
+"is_true" : "0"
+} 
+, { 
+"response" : "Las mangas son Doradas",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "1",
+"statement" : "Cuantos lados tiene un Trangulo",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "3",
+"is_true" : "1"
+} 
+, { 
+"response" : "6",
+"is_true" : "0"
+} 
+, { 
+"response" : "7",
+"is_true" : "0"
+} 
+, { 
+"response" : "2",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "1",
+"statement" : "De que color es la Leche",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "Blanco",
+"is_true" : "1"
+} 
+, { 
+"response" : "Negro",
+"is_true" : "0"
+} 
+, { 
+"response" : "Gris",
+"is_true" : "0"
+} 
+, { 
+"response" : "Azul",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "1",
+"statement" : "Cuanto es 2 x 2",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "4",
+"is_true" : "1"
+} 
+, { 
+"response" : "16",
+"is_true" : "0"
+} 
+, { 
+"response" : "22",
+"is_true" : "0"
+} 
+, { 
+"response" : "1",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "2",
+"statement" : "cual de los siguientes es un color primario",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "Azul",
+"is_true" : "1"
+} 
+, { 
+"response" : "Negro",
+"is_true" : "0"
+} 
+, { 
+"response" : "Verde",
+"is_true" : "0"
+} 
+, { 
+"response" : "Blanco",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "2",
+"statement" : "Que sonido hacen los perros",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "ladran",
+"is_true" : "1"
+} 
+, { 
+"response" : "maullan",
+"is_true" : "0"
+} 
+, { 
+"response" : "silvan",
+"is_true" : "0"
+} 
+, { 
+"response" : "hablan",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "2",
+"statement" : "Cual es la capital de Antioquia",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "Medellin",
+"is_true" : "1"
+} 
+, { 
+"response" : "Santuario",
+"is_true" : "0"
+} 
+, { 
+"response" : "Bogota",
+"is_true" : "0"
+} 
+, { 
+"response" : "Manizales",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "2",
+"statement" : "Cuanto es 5 x 8",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "40",
+"is_true" : "1"
+} 
+, { 
+"response" : "25",
+"is_true" : "0"
+} 
+, { 
+"response" : "16",
+"is_true" : "0"
+} 
+, { 
+"response" : "64",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "2",
+"statement" : "Cual es la capital de Venezuela",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "Caracas",
+"is_true" : "1"
+} 
+, { 
+"response" : "Lima",
+"is_true" : "0"
+} 
+, { 
+"response" : "Envigado",
+"is_true" : "0"
+} 
+, { 
+"response" : "Madrid",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "3",
+"statement" : "Cuál de los siguientes no es mamífero",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "Lagartija",
+"is_true" : "1"
+} 
+, { 
+"response" : "Vaca",
+"is_true" : "0"
+} 
+, { 
+"response" : "perro",
+"is_true" : "0"
+} 
+, { 
+"response" : "Gato",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "3",
+"statement" : "Dia de la independecia de Colombia",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "20 Julio",
+"is_true" : "1"
+} 
+, { 
+"response" : "2 Agosto",
+"is_true" : "0"
+} 
+, { 
+"response" : "7 septiembre",
+"is_true" : "0"
+} 
+, { 
+"response" : "3 Octubre",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "3",
+"statement" : "Cuantos lados tiene un exagono",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "6",
+"is_true" : "1"
+} 
+, { 
+"response" : "5",
+"is_true" : "0"
+} 
+, { 
+"response" : "1",
+"is_true" : "0"
+} 
+, { 
+"response" : "3",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "3",
+"statement" : "Cuantas patas tiene un gato",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "4",
+"is_true" : "1"
+} 
+, { 
+"response" : "6",
+"is_true" : "0"
+} 
+, { 
+"response" : "3",
+"is_true" : "0"
+} 
+, { 
+"response" : "2",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "3",
+"statement" : "Cuál es la capital España",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "Madrid",
+"is_true" : "1"
+} 
+, { 
+"response" : "Barcelona",
+"is_true" : "0"
+} 
+, { 
+"response" : "París",
+"is_true" : "0"
+} 
+, { 
+"response" : "Valencia",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "4",
+"statement" : "La raíz cuadrada de 144 es:",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "12",
+"is_true" : "1"
+} 
+, { 
+"response" : "14",
+"is_true" : "0"
+} 
+, { 
+"response" : "10",
+"is_true" : "0"
+} 
+, { 
+"response" : "16",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "4",
+"statement" : "Cuál de los siguientes piases no pertenece al continente europeo",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "Japón",
+"is_true" : "1"
+} 
+, { 
+"response" : "Holanda",
+"is_true" : "0"
+} 
+, { 
+"response" : "Francia",
+"is_true" : "0"
+} 
+, { 
+"response" : "Inglaterra",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "4",
+"statement" : "Capital de Inglaterra",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "Londres",
+"is_true" : "1"
+} 
+, { 
+"response" : "Tokio",
+"is_true" : "0"
+} 
+, { 
+"response" : "Boston",
+"is_true" : "0"
+} 
+, { 
+"response" : "Toronto",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "4",
+"statement" : "Cuantos departamentos tiene Colombia",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "32",
+"is_true" : "1"
+} 
+, { 
+"response" : "16",
+"is_true" : "0"
+} 
+, { 
+"response" : "25",
+"is_true" : "0"
+} 
+, { 
+"response" : "84",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "4",
+"statement" : "Cuantos jugadores tiene un equipo de futbol",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "11",
+"is_true" : "1"
+} 
+, { 
+"response" : "8",
+"is_true" : "0"
+} 
+, { 
+"response" : "12",
+"is_true" : "0"
+} 
+, { 
+"response" : "5",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "5",
+"statement" : "En qué continente está ubicado el país Belice",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "América",
+"is_true" : "1"
+} 
+, { 
+"response" : "Europa",
+"is_true" : "0"
+} 
+, { 
+"response" : "Asia",
+"is_true" : "0"
+} 
+, { 
+"response" : "África",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "5",
+"statement" : "Cual de los siguientes pares de palabras son homófonas",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "Ahí-Hay",
+"is_true" : "1"
+} 
+, { 
+"response" : "Lindo-Feo",
+"is_true" : "0"
+} 
+, { 
+"response" : "Feliz-Contento",
+"is_true" : "0"
+} 
+, { 
+"response" : "Agua - Rio",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "5",
+"statement" : "En qué país están las cataratas del Niagara",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "Canadá",
+"is_true" : "1"
+} 
+, { 
+"response" : "Francia",
+"is_true" : "0"
+} 
+, { 
+"response" : "Brasil",
+"is_true" : "0"
+} 
+, { 
+"response" : "Argentina",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "5",
+"statement" : "un polígono regular es aquel",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "que tiene todos sus lados iguales",
+"is_true" : "1"
+} 
+, { 
+"response" : "que tiene todos sus lados desiguales",
+"is_true" : "0"
+} 
+, { 
+"response" : "que su perímetro es la suma sus lados",
+"is_true" : "0"
+} 
+, { 
+"response" : "que su área es la suma de sus lados",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "5",
+"statement" : "quién inventó la bombilla",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "Thomás Alba Edison",
+"is_true" : "1"
+} 
+, { 
+"response" : "Isaac Newton",
+"is_true" : "0"
+} 
+, { 
+"response" : "Nicola Tesla",
+"is_true" : "0"
+} 
+, { 
+"response" : "Neil Amstrong",
+"is_true" : "0"
+} 
+]
+}
+, { 
+"category_id" : "1",
+"statement" : "asdasda",
+"labelCategory" : "null",
+"responses" : [{ 
+"response" : "asdasd",
+"is_true" : "1"
+} 
+, { 
+"response" : "asdasd",
+"is_true" : "0"
+} 
+, { 
+"response" : "asdasd",
+"is_true" : "0"
+} 
+, { 
+"response" : "asdasd",
+"is_true" : "0"
+} 
+]
+}
+]

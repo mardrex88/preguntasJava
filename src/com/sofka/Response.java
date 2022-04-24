@@ -54,9 +54,9 @@ public class Response {
 
     @Override
     public String toString() {
-        return "Response{" +
-                "response='" + response + '\'' +
-                ", isTrue='" + isTrue + '\'' +
-                '}';
+        return  "{ \n" +
+                "\"response\" : \""+response+"\",\n"+
+                "\"is_true\" : \""+isTrue+"\"\n"+
+                "} \n" ;
     }
 }

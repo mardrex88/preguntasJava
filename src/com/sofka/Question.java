@@ -20,7 +20,11 @@ public class Question {
     }
 
     public Question() {
+        this.responses = new ArrayList<>();
+    }
 
+    public void setCategory(Integer category) {
+        this.category = category;
     }
 
     public void Statement(String statement) {
@@ -71,11 +75,11 @@ public class Question {
 
     @Override
     public String toString() {
-        return "Question{" +
-                "statement='" + statement + '\'' +
-                ", responses=" + responses +
-                ", category=" + category +
-                ", labelCategory='" + labelCategory + '\'' +
-                '}';
+        return "{ \n" +
+                "\"category_id\" : \""+category+"\",\n"+
+                "\"statement\" : \""+statement+"\",\n"+
+                "\"labelCategory\" : \""+labelCategory+"\",\n"+
+                "\"responses\" : "+responses+"\n"+
+                "}\n" ;
     }
 }

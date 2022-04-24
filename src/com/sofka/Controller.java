@@ -13,7 +13,7 @@ public class Controller implements IMenu {
     @Override
     public void loadMenu() {
         Scanner readOption = new Scanner(System.in);
-        String[] options = {"1-  Jugar", "2 - Tabla de Posiciones", "3 - Configuracion de Preguntas", "4 - Salir del juego\n"};
+        String[] options = {"1-  Jugar", "2 - Tabla de Posiciones", "3 - Agregar Preguntas", "4 - Salir del juego\n"};
 
         System.out.println("Bienvenido a la TRIVIA\n");
         System.out.println("Ingrese una opción:");
@@ -27,8 +27,10 @@ public class Controller implements IMenu {
                     createNewGame();
                     break;
                 case 2:
+
                     break;
                 case 3:
+                    new PreguntaController().addNewQuestion();
                     break;
                 case 4:
                     break;

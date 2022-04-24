@@ -34,6 +34,10 @@ public class Game implements IGameManager {
         this.dataQuestions = chargerQuestions();
     }
 
+    public Game() {
+
+    }
+
     @Override
     public List<Question> chargerQuestions() {
     JSONParser parser = new JSONParser();

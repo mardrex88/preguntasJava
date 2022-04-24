@@ -5,20 +5,31 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f91e040-f98c-4fab-b4a2-72202501aa30" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/sofka/PreguntaController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Game.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Response.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Response.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/questions2.json" beforeDir="false" afterPath="$PROJECT_DIR$/questions2.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sofka/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sofka/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sofka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sofka/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Question.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/sofka/Response.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Response.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sofka/interfaces/IGameManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/interfaces/IGameManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -31,15 +42,6 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
-  }
-}</component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.sofka.Main" />
@@ -81,6 +83,42 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sofka/Game.java</url>
+          <line>61</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sofka/Game.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sofka/Game.java</url>
+          <line>42</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sofka/Game.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sofka/Game.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/sofka/Game.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/preguntasJava$Main.ic" NAME="Main Coverage Results" MODIFIED="1650750625125" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />

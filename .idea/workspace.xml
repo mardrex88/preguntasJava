@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8f91e040-f98c-4fab-b4a2-72202501aa30" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/sofka/Gamer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/sofka/PositionTable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/preguntasJava/com/sofka/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sofka/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sofka/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/sofka/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/sofka/PositionTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/sofka/PositionTable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

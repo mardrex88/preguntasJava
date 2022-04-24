@@ -21,6 +21,5 @@ public class PositionTable {
             System.out.println(gamerList.get(i).toString());
         }
     }
-
 }
 

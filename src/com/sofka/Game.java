@@ -3,6 +3,7 @@ package com.sofka;
 import com.sofka.interfaces.IGameManager;
 import com.sofka.interfaces.IMenu;
 import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
@@ -14,8 +15,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
-public class Game implements IMenu, IGameManager {
+public class Game implements IGameManager {
 
     private String namePlayer;
     private Integer points;
@@ -34,12 +36,13 @@ public class Game implements IMenu, IGameManager {
 
     @Override
     public List<Question> chargerQuestions() {
-        JSONParser parser = new JSONParser();
+    JSONParser parser = new JSONParser();
         try {
             Reader reade = new FileReader("questions.json");
             Object obj = parser.parse(reade);
-            dataQuestions = (JSONArray) obj;
-            System.out.println(dataQuestions);
+            this.dataQuestions = new Question().toList((JSONArray) obj);
+
+            System.out.println(this.dataQuestions);
 
         } catch (ParseException pe) {
             System.out.println("position: " + pe.getPosition());
@@ -49,19 +52,32 @@ public class Game implements IMenu, IGameManager {
         } catch (IOException e) {
             e.printStackTrace();
         }
-        return dataQuestions;
+        return this.dataQuestions;
     }
 
     @Override
-    public List<Question> getQuestionsByLevel(int level, List<Question> dataQuestions) {
+    public List<Question> getQuestionsByLevel(int level) {
         List<Question> questionsByCategory = new ArrayList<>();
-        for (int i = 0; i < dataQuestions.size(); i++) {
 
+        for (Question question : this.dataQuestions){
+            if(question.category() == level){
+                questionsByCategory.add(question);
+            }
         }
-        return dataQuestions;
+        return questionsByCategory;
     }
 
-    @Override
+    private Question getQuestionRandom(List<Question> questions){
+        Integer random = (int) (Math.random() * questions.size());
+        return questions.get(random);
+    }
+
+    public Question getCurrentQuestionRandom(int level){
+        Question question = getQuestionRandom(getQuestionsByLevel(level));
+        return question;
+    }
+
+    /*@Override
     public void loadMenu() {
         Scanner readOption = new Scanner(System.in);
         boolean continueGame = true;
@@ -90,6 +106,6 @@ public class Game implements IMenu, IGameManager {
                     break;
             }
         }
-    }
+    }*/
 
 }

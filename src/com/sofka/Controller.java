@@ -2,6 +2,7 @@ package com.sofka;
 
 import com.sofka.interfaces.IMenu;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class Controller implements IMenu {
@@ -41,6 +42,14 @@ public class Controller implements IMenu {
         String namePlayer;
         namePlayer = readUser.nextLine();
         Game game = new Game(namePlayer);
-        game.loadMenu();
+
+        for (int i = 1; i <= 5; i++) {
+
+            Question questionByLevel =  game.getCurrentQuestionRandom(i);
+            System.out.println(questionByLevel);
+
+        }
+
+        //game.loadMenu();
     }
 }

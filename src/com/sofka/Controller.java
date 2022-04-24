@@ -2,7 +2,7 @@ package com.sofka;
 
 import com.sofka.interfaces.IMenu;
 
-import javax.swing.text.TabableView;
+import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -42,27 +42,29 @@ public class Controller implements IMenu {
 
         }
     }
-    public void createNewGame(){
+
+    public void createNewGame() {
         Scanner readUser = new Scanner(System.in);
         System.out.println("Ingrese el nombre de Jugador");
         String namePlayer;
         String message = "";
         namePlayer = readUser.nextLine();
         Game game = new Game(namePlayer);
+        Registro registro = new Registro(namePlayer);
 
         for (int i = 1; i <= 5; i++) { // controla las rondas, o niveles o categorias
 
             int response = 0;
-            Question questionByLevel =  game.getCurrentQuestionRandom(i);
+            Question questionByLevel = registro.getCurrentQuestionRandom(i);
 
             System.out.println(questionByLevel.getStatement().concat("?"));
 
-            List<Response> aleatorResponse =  new ArrayList<Response>(questionByLevel.responses());
+            List<Response> aleatorResponse = new ArrayList<Response>(questionByLevel.responses());
             Collections.shuffle(aleatorResponse);
 
             for (int j = 1; j <= aleatorResponse.size(); j++) {
-                System.out.println(j + ". " + aleatorResponse.get(j-1).getResponse());
-                if(aleatorResponse.get(j-1).getIsTrue().equals("1")){
+                System.out.println(j + ". " + aleatorResponse.get(j - 1).getResponse());
+                if (aleatorResponse.get(j - 1).getIsTrue().equals("1")) {
                     response = j;
                 }
             }
@@ -72,26 +74,27 @@ public class Controller implements IMenu {
             int option;
             option = Integer.parseInt(readUser.nextLine());
 
-            if(option == 5) {
+            if (option == 5) {
                 message += "Has terminado la partida";
                 break;
-            }if(option != response){
+            }
+            if (option != response) {
                 //System.out.println("");
                 message += "Respuesta incorrecta, finalizaste el juego";
                 break;
-            }if(i == 5){
-                message += "Felicidades ganaste";
             }
+            if (i == 5) {
+                message += "Felicidades ganaste";
 
-            game.setPoints(i * 5);
-            game.setMaxLevel(i);
-            
+            }
+            registro.setPoints(i * 5);
+            registro.setMaxLevel(i);
+
+
         }
-
-        System.out.println(message + " Puntaje obtenido " + game.getPoints());
-        PositionTable.addGamer(game.gamer());
-
-
+        registro.setFecha(LocalDate.now());
+        System.out.println(message + "Hoy " + registro.getFecha().toString() + "Obtuviste  " + registro.getPoints() + " Puntos");
+        PositionTable.addGamer(registro.gamer());
     }
 
     private void viewTable() {

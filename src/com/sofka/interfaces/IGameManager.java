@@ -8,4 +8,5 @@ public interface IGameManager {
 
     public List<Question> chargerQuestions();
     public List<Question> getQuestionsByLevel(int level);
+
 }

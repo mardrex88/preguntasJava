@@ -69,4 +69,13 @@ public class Question {
 
     }
 
+    @Override
+    public String toString() {
+        return "Question{" +
+                "statement='" + statement + '\'' +
+                ", responses=" + responses +
+                ", category=" + category +
+                ", labelCategory='" + labelCategory + '\'' +
+                '}';
+    }
 }

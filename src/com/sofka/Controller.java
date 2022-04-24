@@ -2,6 +2,8 @@ package com.sofka;
 
 import com.sofka.interfaces.IMenu;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 import java.util.Scanner;
 
@@ -40,16 +42,49 @@ public class Controller implements IMenu {
         Scanner readUser = new Scanner(System.in);
         System.out.println("Ingrese el nombre de Jugador");
         String namePlayer;
+        String message = "";
         namePlayer = readUser.nextLine();
         Game game = new Game(namePlayer);
 
-        for (int i = 1; i <= 5; i++) {
+        for (int i = 1; i <= 5; i++) { // controla las rondas, o niveles o categorias
 
+            int response = 0;
             Question questionByLevel =  game.getCurrentQuestionRandom(i);
-            System.out.println(questionByLevel);
 
+            System.out.println(questionByLevel.getStatement().concat("?"));
+
+            List<Response> aleatorResponse =  new ArrayList<Response>(questionByLevel.responses());
+            Collections.shuffle(aleatorResponse);
+
+            for (int j = 1; j <= aleatorResponse.size(); j++) {
+                System.out.println(j + ". " + aleatorResponse.get(j-1).getResponse());
+                if(aleatorResponse.get(j-1).getIsTrue().equals("1")){
+                    response = j;
+                }
+            }
+            System.out.println("Ingrese la opcion de respuesta");
+            System.out.println("5. Salir");
+
+            int option;
+            option = Integer.parseInt(readUser.nextLine());
+
+            if(option == 5) {
+                message += "Has terminado la partida";
+                break;
+            }if(option != response){
+                //System.out.println("");
+                message += "Respuesta incorrecta, finalizaste el juego";
+                break;
+            }if(i == 5){
+                message += "Felicidades ganaste";
+            }
+
+            game.setPoints(i * 5);
+            game.setMaxLevel(i);
+            
         }
 
-        //game.loadMenu();
+        System.out.println(message + " Puntaje obtenido " + game.getPoints());
+
     }
 }

@@ -52,4 +52,11 @@ public class Response {
 
     }
 
+    @Override
+    public String toString() {
+        return "Response{" +
+                "response='" + response + '\'' +
+                ", isTrue='" + isTrue + '\'' +
+                '}';
+    }
 }

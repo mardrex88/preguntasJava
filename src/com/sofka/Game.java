@@ -42,8 +42,6 @@ public class Game implements IGameManager {
             Object obj = parser.parse(reade);
             this.dataQuestions = new Question().toList((JSONArray) obj);
 
-            System.out.println(this.dataQuestions);
-
         } catch (ParseException pe) {
             System.out.println("position: " + pe.getPosition());
             System.out.println(pe);
@@ -77,35 +75,16 @@ public class Game implements IGameManager {
         return question;
     }
 
-    /*@Override
-    public void loadMenu() {
-        Scanner readOption = new Scanner(System.in);
-        boolean continueGame = true;
-        String[] questionInfo = {"question", "1 - answer", "2 - answer", "3 - answer", "4 - answerTrue"};
+    public void setPoints(Integer points) {
+        this.points = this.points + points;
+    }
 
-        int answerSelected = 0;
-        while (continueGame){
-            System.out.println("\n");
-            printMenu(questionInfo);
-            answerSelected = readOption.nextInt();
-            switch (answerSelected) {
-                case 1:
-                    continueGame = false;
-                    break;
-                case 2:
-                    continueGame = false;
-                    break;
-                case 3:
-                    continueGame = false;
-                    break;
-                case 4:
-                    //continueGame
-                    break;
-                default:
-                    System.out.println("Elige una opción valida");
-                    break;
-            }
-        }
-    }*/
+    public void setMaxLevel(Integer maxLevel) {
+        this.maxLevel = maxLevel;
+    }
+
+    public Integer getPoints() {
+        return points;
+    }
 
 }

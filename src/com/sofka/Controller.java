@@ -2,6 +2,7 @@ package com.sofka;
 
 import com.sofka.interfaces.IMenu;
 
+import javax.swing.text.TabableView;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
@@ -9,9 +10,12 @@ import java.util.Scanner;
 
 public class Controller implements IMenu {
 
+    PositionTable positionTable = new PositionTable();
+
     //implementación de interface para cargar menu principal
     @Override
     public void loadMenu() {
+
         Scanner readOption = new Scanner(System.in);
         String[] options = {"1-  Jugar", "2 - Tabla de Posiciones", "3 - Agregar Preguntas", "4 - Salir del juego\n"};
 
@@ -27,7 +31,7 @@ public class Controller implements IMenu {
                     createNewGame();
                     break;
                 case 2:
-
+                    viewTable();
                     break;
                 case 3:
                     new PreguntaController().addNewQuestion();
@@ -38,8 +42,6 @@ public class Controller implements IMenu {
 
         }
     }
-
-    //metodo creación de nuevo juego
     public void createNewGame(){
         Scanner readUser = new Scanner(System.in);
         System.out.println("Ingrese el nombre de Jugador");
@@ -87,6 +89,13 @@ public class Controller implements IMenu {
         }
 
         System.out.println(message + " Puntaje obtenido " + game.getPoints());
+        PositionTable.addGamer(game.gamer());
+
+
+    }
+
+    private void viewTable() {
+        positionTable.printTable();
 
     }
 }

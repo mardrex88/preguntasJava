@@ -1,9 +1,7 @@
 package com.sofka;
 
 import com.sofka.interfaces.IGameManager;
-import com.sofka.interfaces.IMenu;
 import org.json.simple.JSONArray;
-import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
@@ -14,12 +12,9 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.List;
 
-import java.util.Scanner;
-import java.util.stream.Collectors;
-
 public class Game implements IGameManager {
 
-    private String namePlayer;
+    private Gamer gamer;
     private Integer points;
     private Integer maxLevel;
     private boolean abandoned;
@@ -27,7 +22,7 @@ public class Game implements IGameManager {
 
 
     public Game(String namePlayer) {
-        this.namePlayer = namePlayer;
+        this.gamer = new Gamer(namePlayer);
         this.points = 0;
         this.maxLevel = 0;
         this.abandoned = false;
@@ -81,6 +76,7 @@ public class Game implements IGameManager {
 
     public void setPoints(Integer points) {
         this.points = this.points + points;
+        this.gamer.pints(this.points);
     }
 
     public void setMaxLevel(Integer maxLevel) {
@@ -89,6 +85,10 @@ public class Game implements IGameManager {
 
     public Integer getPoints() {
         return points;
+    }
+
+    public Gamer gamer(){
+        return gamer;
     }
 
 }

@@ -16,31 +16,39 @@ public class Controller implements IMenu {
     @Override
     public void loadMenu() {
 
-        Scanner readOption = new Scanner(System.in);
-        String[] options = {"1-  Jugar", "2 - Tabla de Posiciones", "3 - Agregar Preguntas", "4 - Salir del juego\n"};
+        try {
+            Scanner readOption = new Scanner(System.in);
+            String[] options = {"1-  Jugar", "2 - Tabla de Posiciones", "3 - Agregar Preguntas", "4 - Salir del juego\n"};
 
-        System.out.println("Bienvenido a la TRIVIA\n");
-        System.out.println("Ingrese una opción:");
+            System.out.println("Bienvenido a la TRIVIA\n");
+            System.out.println("Ingrese una opción:");
 
-        int option = 0;
-        while (option != 4) {
-            printMenu(options);
-            option = readOption.nextInt();
-            switch (option) {
-                case 1:
-                    createNewGame();
-                    break;
-                case 2:
-                    viewTable();
-                    break;
-                case 3:
-                    new PreguntaController().addNewQuestion();
-                    break;
-                case 4:
-                    break;
+            int option = 0;
+            while (option != 4) {
+                printMenu(options);
+                option = readOption.nextInt();
+                switch (option) {
+                    case 1:
+                        createNewGame();
+                        break;
+                    case 2:
+                        viewTable();
+                        break;
+                    case 3:
+                        new PreguntaController().addNewQuestion();
+                        break;
+                    case 4:
+                        break;
+                    default:
+                        System.out.println("has ingresado una opcion incorrecta....");
+                }
+
             }
-
+        }catch (Exception e){
+            System.out.println("Has ingresado un formato incorrecto....");
+            loadMenu();
         }
+
     }
 
     public void createNewGame() {
@@ -49,7 +57,6 @@ public class Controller implements IMenu {
         String namePlayer;
         String message = "";
         namePlayer = readUser.nextLine();
-        Game game = new Game(namePlayer);
         Registro registro = new Registro(namePlayer);
 
         for (int i = 1; i <= 5; i++) { // controla las rondas, o niveles o categorias
@@ -68,32 +75,37 @@ public class Controller implements IMenu {
                     response = j;
                 }
             }
-            System.out.println("Ingrese la opcion de respuesta");
-            System.out.println("5. Salir");
+            try {
+                System.out.println("Ingrese la opcion de respuesta");
+                System.out.println("5. Salir");
 
-            int option;
-            option = Integer.parseInt(readUser.nextLine());
+                int option;
+                option = Integer.parseInt(readUser.nextLine());
 
-            if (option == 5) {
-                message += "Has terminado la partida";
-                break;
+                if (option == 5) {
+                    message += "Has terminado la partida";
+                    break;
+                }
+                if (option != response) {
+                    //System.out.println("");
+                    message += "Respuesta incorrecta, finalizaste el juego";
+                    break;
+                }
+                if (i == 5) {
+                    message += "Felicidades ganaste";
+
+                }
+                registro.setPoints(i * 5);
+                registro.setMaxLevel(i);
+
+            }catch (Exception e){
+                System.out.println("Has ingresado un formato incorrecto....");
+                createNewGame();
             }
-            if (option != response) {
-                //System.out.println("");
-                message += "Respuesta incorrecta, finalizaste el juego";
-                break;
-            }
-            if (i == 5) {
-                message += "Felicidades ganaste";
-
-            }
-            registro.setPoints(i * 5);
-            registro.setMaxLevel(i);
-
 
         }
         registro.setFecha(LocalDate.now());
-        System.out.println(message + "Hoy " + registro.getFecha().toString() + "Obtuviste  " + registro.getPoints() + " Puntos");
+        System.out.println(message + " Hoy " + registro.getFecha().toString() + " Obtuviste  " + registro.getPoints() + " Puntos");
         PositionTable.addGamer(registro.gamer());
     }
 
